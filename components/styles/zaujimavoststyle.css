@@ -1,0 +1,17 @@
+.Zaujímavosti {
+    position: absolute;    /* odkazy budú plávať */
+    top: 300px;             /* vzdialenosť od vrchu stránky */
+    left: 50%;             /* posunie ich do stredu */
+    transform: translateX(-50%); /* presné centrovanie */
+}
+
+.Copyright {
+    position: absolute;    /* odkazy budú plávať */
+    top: 500px;             /* vzdialenosť od vrchu stránky */
+    left: 50%;             /* posunie ich do stredu */
+    transform: translateX(-50%); /* presné centrovanie */
+}
+
+.Copyright p {
+    font-size: 15px;
+}

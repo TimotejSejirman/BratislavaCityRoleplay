@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: rgb(18, 18, 30);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.odkaz a {
+  background-color: #002035;
+  font-weight: 700;
+  padding: 15px 40px 15px 40px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #ffffff;
+  margin: 15px;
+}
+
+    .odkaz a:hover {
+      box-shadow: 0 0 5px #1ea5ff;
+    }
+
+#hero {
+  position: relative;
+  height: 50vh;
+  background: url("/components/images/banner.png") center/cover no-repeat;
+}
+
+#hero .overlay {
+  position: absolute;
+  inset: 0; /* vyplní celú sekciu */
+  background: rgba(0, 0, 0, 0.7); /* čierne polopriehľadné prekrytie */
+}
+
+#hero .content {
+  position: relative; /* aby text nebol pod overlayom */
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#hero .content p {
+    font-size: 25px;
+}
+
+#hero .content h1 {
+    font-size: 100px;
+}
+
+p {
+  font-size: 20px;
+}

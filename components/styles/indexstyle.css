@@ -1,0 +1,55 @@
+.ponuka {
+    position: absolute;    /* odkazy budú plávať */
+    top: 1050px;             /* vzdialenosť od vrchu stránky */
+    left: 50%;             /* posunie ich do stredu */
+    transform: translateX(-50%); /* presné centrovanie */
+}
+
+.ponuka span {
+    background-color: rgb(87, 0, 0);
+    font-weight: 700;
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: default;
+}
+
+    .ponuka span:hover {
+        box-shadow: 0 0 15px #ff0000;
+    }
+
+.pripojenie {
+    position: absolute;    /* odkazy budú plávať */
+    top: 1500px;             /* vzdialenosť od vrchu stránky */
+    left: 50%;             /* posunie ich do stredu */
+    transform: translateX(-50%); /* presné centrovanie */
+}
+
+.pripojenie span {
+    font-size: 20px;
+}
+
+.pripojenie a {
+    background-color: #002035;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.pripojenie img {
+    width: 70px;
+}
+
+.Copyright {
+    position: absolute;    /* odkazy budú plávať */
+    top: 1920px;             /* vzdialenosť od vrchu stránky */
+    left: 50%;             /* posunie ich do stredu */
+    transform: translateX(-50%); /* presné centrovanie */
+}
+
+.Copyright p {
+    font-size: 15px;
+}

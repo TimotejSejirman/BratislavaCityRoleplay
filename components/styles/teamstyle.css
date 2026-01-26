@@ -1,0 +1,124 @@
+h1 {
+    font-size: 50px;
+}
+
+
+
+.majitel {
+    position: absolute;
+    top: 380px;
+    left: 35%;
+    background-color: rgb(85, 85, 85);
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+    .majitel p {
+        font-size: 15px;
+        font-weight: 700;
+        color: rgb(255, 0, 0);
+    }
+
+.co-owner {
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(85, 85, 85);
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+    .co-owner p {
+        font-size: 15px;
+        font-weight: 700;
+        color: rgb(255, 0, 0);
+    }
+
+.supervisor {
+    position: absolute;
+    top: 380px;
+    right: 32.5%;
+    background-color: rgb(85, 85, 85);
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+    .supervisor p {
+        font-size: 15px;
+        font-weight: 700;
+        color: rgb(255, 0, 0);
+    }
+
+.admin1 {
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(85, 85, 85);
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+    .admin1 p {
+        font-size: 15px;
+        font-weight: 700;
+        color: rgb(255, 0, 0);
+    }
+
+.technik1 {
+    position: absolute;
+    top: 920px;
+    left: 37%;
+    background-color: rgb(85, 85, 85);
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+    .technik1 p {
+        font-size: 15px;
+        font-weight: 700;
+        color: rgb(255, 0, 0);
+    }
+
+.technik2 {
+    position: absolute;
+    top: 920px;
+    right: 37%;
+    background-color: rgb(85, 85, 85);
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+    .technik2 p {
+        font-size: 15px;
+        font-weight: 700;
+        color: rgb(255, 0, 0);
+    }
+
+.mod1 {
+    position: absolute;
+    top: 1180px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(85, 85, 85);
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+    .mod1 p {
+        font-size: 15px;
+        font-weight: 700;
+        color: rgb(255, 0, 0);
+    }
+
+.Copyright {
+    position: absolute;    /* odkazy budú plávať */
+    top: 1350px;             /* vzdialenosť od vrchu stránky */
+    left: 50%;             /* posunie ich do stredu */
+    transform: translateX(-50%); /* presné centrovanie */
+}
+
+.Copyright p {
+    font-size: 15px;
+}
