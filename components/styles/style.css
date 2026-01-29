@@ -24,7 +24,7 @@ body {
 #hero {
   position: relative;
   height: 50vh;
-  background: url("components/images/baner.png") center/cover no-repeat;
+  background: url("/components/images/baner.png") center/cover no-repeat;
 }
 
 #hero .overlay {
