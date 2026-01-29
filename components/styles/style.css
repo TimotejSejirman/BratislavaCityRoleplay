@@ -30,7 +30,7 @@ body {
 #hero .overlay {
   position: absolute;
   inset: 0; /* vyplní celú sekciu */
-  background: rgba(0, 0, 0, 0.7); /* čierne polopriehľadné prekrytie */
+  background: rgba(0, 0, 0, 0.1); /* čierne polopriehľadné prekrytie */
 }
 
 #hero .content {
